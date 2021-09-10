@@ -24,10 +24,9 @@ ofstream ofile;
     ofile.open("test.out");
     ofile << "Name: Pabitra Bhandari" << endl
           << "Date: September 10, 2021" << endl
-          << "Fall 2143" << endl
+          << "Course: 2143 Fall 2021" << endl
           << endl;
 
-        
     int x = 0;
 
     MyVector v1;
