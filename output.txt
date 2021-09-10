@@ -1,6 +1,6 @@
 Name: Pabitra Bhandari
 Date: September 10, 2021
-Fall 2143
+Course: 2143 Fall 2021
 
 [25, 20, 18, 18, 20, 25]
 [51, 47, 33, 25, 11]
