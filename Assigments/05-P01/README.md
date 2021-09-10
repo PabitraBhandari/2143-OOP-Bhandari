@@ -7,6 +7,7 @@
 The program of MyVector Class is a basic container type of integers that can grow or shrink easily without the need to copy values over to newly allocated memory when resizing.
 
 Initializing the class instance:
+
 From an array
 V1 = new MyVector(int *A, int size) : adds each item from an array type
 
