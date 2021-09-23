@@ -37,4 +37,4 @@ Overload = (assignment)
 
 
 ## Instructions:
-The code is runable using g++ command and the file name, including both files.
+The code is executable using g++ command and the file name, including both files.
