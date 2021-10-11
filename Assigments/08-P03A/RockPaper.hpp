@@ -31,21 +31,21 @@ using namespace std;
 struct Hands
 {
 
-        static map< string, string > Emojis;  // stl map
-                                              // name  , emoji
+        static map< string, string > Emojis;            // stl map
+                                                        // name  , emoji
 
-    static map< string, string > Names;       // stl map
-                                              // emoji  , name
+    static map< string, string > Names;                 // stl map
+                                                        // emoji  , name
 
     static string RandHand() {
-        auto it = Emojis.begin();             // iterator to front of map
+        auto it = Emojis.begin();                       // iterator to front of map
 
-        std::advance(it, rand() % Emojis.size());  // advance some random amnt
-                                                   //   of steps
+        std::advance(it, rand() % Emojis.size());       // advance some random amnt
+                                                        //   of steps
 
-        string random_hand = it->second;  // grab emoji from map
+        string random_hand = it->second;                // grab emoji from map
 
-        return random_hand;  // return rand emoji
+        return random_hand;                             // return rand emoji
     }
 
     static string Rock()
@@ -131,6 +131,7 @@ struct Player{
         this->weapon2 = weapon2;
     }
 
+ //ROCK VS OTHER
     bool rockVS(string other)
     {
         bool win = false;
@@ -150,6 +151,7 @@ struct Player{
         return win;
     }
 
+ //PAPER VS OTHER
     bool paperVS(string other)
     {
         bool win = false;
@@ -169,6 +171,7 @@ struct Player{
         return win;
     }
 
+ //SCISSORS VS OTHER
     bool scissorsVS(string other)
     {
         bool win = false;
@@ -188,6 +191,7 @@ struct Player{
         return win;
     }
 
+ //LIZARD VS OTHER
     bool lizardVS(string other)
     {
         bool win = false;
@@ -207,6 +211,7 @@ struct Player{
         return win;
     }
 
+ //SPOCK VS OTHER
     bool spockVS(string other)
     {
         bool win = false;
