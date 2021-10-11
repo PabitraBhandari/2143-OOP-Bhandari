@@ -1,1 +1,4 @@
-
+Instance 1
+Player 1's weapons: 🔪 📃
+Player 2's weapons: 🗻 🦎
+Player 2's 🗻 beat Player 1's 🔪
