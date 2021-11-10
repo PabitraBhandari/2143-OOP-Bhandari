@@ -8,3 +8,4 @@
 | 4     |  [06-P02](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/06-P02)          | MyVector Class 2 |
 | 5     |  [04-A05](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/04-A05)           | OOP Primer, Basic OOP Terms|
 | 6     |  [08-P03A](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/08-P03A)         | Game Project Part1|
+| 7   |   [10-P03B](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/10-P03B)          |  Game Project Part2 |
