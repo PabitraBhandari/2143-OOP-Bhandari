@@ -14,8 +14,12 @@ This assignment is being continued from our initial take on the Gaming Project. 
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | [Banner.txt](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/Banner.txt)         |  Banner for the project    |
 |   2   | [main.cpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/main.cpp)  | Main driver of my project part 2        |
-|   3   | [....]() | |
-|   4   | [Output.txt]() |  |
+|   3   | [jason.hpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/jason.hpp) |Jason Stuff |
+|   4   | [weapon.hpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/weapon.hpp) | Implementation of Weapon functions |
+|   1   | [dice.hpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/dice.hpp)         |  Dice Rolling    |
+|   2   | [fighter.hpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/fighter.hpp)  | Implementations of fighters role  |
+|   3   | [game.hpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/game.hpp) | Game Implementation|
+|   4   | [helpers.hpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/helpers.hpp) | Helpers for the fight |
 
 
 ## Instructions:
