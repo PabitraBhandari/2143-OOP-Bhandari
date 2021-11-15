@@ -13,7 +13,7 @@ This assignment is being continued from our initial take on the Gaming Project. 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |   1   | [Banner.txt]()         |  Banner for the project    |
-|   2   | [main.cpp]()  | Main driver of my project part 2        |
+|   2   | [main.cpp](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/10-P03B/main.cpp)  | Main driver of my project part 2        |
 |   3   | [....]() | |
 |   4   | [Output.txt]() |  |
 
