@@ -1,1 +1,25 @@
+Attacking Warrior attacks defending Warrior for 4
+Defending Warrior swaps out.
+Attacking Warrior attacks defending Dragon Born for 12
+Defending Dragon Born has died.
+Defending Warrior swaps out.
+Attacking Warrior attacks defending Elf for 3
+Defending Elf swaps out.
+Attacking Warrior attacks defending Elf for 5
+Defending Elf has died.
+Defending Warrior swaps out.
+Attacking Warrior attacks defending Archer for 12
+Defending Archer has died.
+Defending Warrior swaps out.
+Attacking Warrior attacks defending Wizard for 5
+Defending Wizard has died.
+Defending Warrior swaps out.
+Attacking Warrior attacks defending Warrior for 2
+Defending Warrior has died.
 
+
+Attackers win
+
+Total Number of Attackers: 28
+Total Number of Defenders: 5
+Number of Rounds Completed: 7
