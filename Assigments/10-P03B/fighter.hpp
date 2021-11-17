@@ -1,113 +1,93 @@
 #include <iostream>
-#include <random>
 #include <string>
-#include <vector>
-
 #include "weapon.hpp"
-#include "helpers.hpp"
-#include "dice.hpp"
+
 using namespace std;
 
-#pragma once
+/**
+ * class BaseFighter
+ * 
+ * Description:
+ *      Creates base fighter type and assigns name and weapon to specified fighter type.
+ * 
+ * Public Methods:
+ *    double health;
+ *    double regenRate;    
+ *    Primary weapon (Fist and Feet);
+ * 
+ *    
+ */
 
 
-class BaseFighter
+class BaseFighter                                 // Creates base fighter type
 {
-protected:
-    string name;
-    Weapon *weapon1;
-    int hp;
-    double rr;
+    public:
+        BaseFighter()
+        {
+                                                  // Base stats on every fighter
+            health = rand()%5 + 3;
+            regenRate = (rand()%60 + 15)/100;
+        }
 
-public:
-    BaseFighter()
-    {
-        name = "None";
-        weapon1 = new Weapon;
-    }
+        double health;
+        double regenRate;
 
-    virtual double attack()
-    {
-        return weapon1->use();
-    }
+        Weapon useWeapon;
 
-    void takeDamage(int x)
-    {
-        hp -= x;
-    }
-
-    bool alive()
-    {
-        return hp > 0;
-    }
-    int getHp()
-    {
-        return hp;
-    }
-
-    friend ostream &operator<<(ostream &os, const BaseFighter &f)
-    {
-        return os << "[" << f.name << " , " << *f.weapon1 << "]";
-    }
+        string name;
 };
 
+// Assigns name and weapon to Warrior
 class Warrior : public BaseFighter
 {
-private:
-    Weapon *weapon2;
-
-public:
-    void attack(BaseFighter *&other)
-    {
-        int r = weapon2->use();
-        other->takeDamage(r);
-    }
+    public:
+        Warrior()
+        {
+            useWeapon = Sword();
+            name = "Warrior";
+        }
 };
 
+// Assigns name and weapon to Wizard
 class Wizard : public BaseFighter
 {
-private:
-    Weapon* weapon2;
-public:
-    void attack(BaseFighter *&other)
-    {
-        int r = weapon2->use();
-        other->takeDamage(r);
-    }
+    public:
+        Wizard()
+        {
+            useWeapon = MagicSpell();
+            name = "Wizard";
+        }
 };
 
+// Assigns name and weapon to Archer
 class Archer : public BaseFighter
 {
-private:
-    Weapon* weapon2;
-public:
-    void attack(BaseFighter *&other)
-    {
-        int r = weapon2->use();
-        other->takeDamage(r);
-    }
+    public:
+        Archer()
+        {
+            useWeapon = Bow();
+            name = "Archer";
+        }
 };
 
+// Assigns name and weapon to Elf
 class Elf : public BaseFighter
 {
-private:
-    Weapon* weapon2;
-public:
-    void attack(BaseFighter *&other)
-    {
-        int r = weapon2->use();
-        other->takeDamage(r);
-    }
+    public:
+        Elf()
+        {
+            useWeapon = MagicSword();
+            name = "Elf";
+        }
 };
 
+// Assigns name and weapon to DragonBorn
 class DragonBorn : public BaseFighter
 {
-private:
-    Weapon* weapon2;
-public:
-    void attack(BaseFighter *&other)
-    {
-        int r = weapon2->use();
-        other->takeDamage(r);
-    }
+    public:
+        DragonBorn()
+        {
+            useWeapon = FireBow();
+            name = "Dragon Born";
+        }
 };
