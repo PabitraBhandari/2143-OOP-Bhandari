@@ -9,7 +9,7 @@ Just to design a diagram to print out the transcripts of students including some
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [banner.txt](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/A06/banner.txt) | Banner page for the assignment   |
-|   2   | ..  | Main driver of my list program  |
+|   2   | [A06.pdf](https://github.com/PabitraBhandari/2143-OOP-Bhandari/blob/main/Assigments/A06/A06.pdf)  | UML diagram file  |
 
 ### Instructions
 
@@ -19,3 +19,5 @@ Just to design a diagram to print out the transcripts of students including some
 
 - None for now.
 
+### Source :
+https://github.com/rugbyprof/2143-Object-Oriented-Programming/blob/master/Resources/04-UML/README.md
