@@ -9,3 +9,4 @@
 | 5     |  [04-A05](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/04-A05)           | OOP Primer, Basic OOP Terms|
 | 6     |  [08-P03A](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/08-P03A)         | Game Project Part1|
 | 7   |   [10-P03B](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/10-P03B)          |  Game Project Part2 |
+| 8   | [12-A06](https://github.com/PabitraBhandari/2143-OOP-Bhandari/tree/main/Assigments/A06)                 |  UML Diagram  |
